@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button.setOnClickListener(this);
 
         mTextView = (TextView) findViewById(R.id.textView);
-        mTextView.setText("ボタンを押して時刻を選択してください");
+        mTextView.setText("ボタンを押して時刻を設定してください");
 
     }
 
